@@ -1,0 +1,52 @@
+body {
+  background-color: #000;
+  color: #f9f6f6;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.w-logo {
+  width: 40px;
+  height: 40px;
+}
+.nav-bg-color {
+  background-color: #f9f6f6;
+}
+.meal:hover .layer {
+  top:0;
+}
+.layer {
+  position: absolute;
+  top: 125%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f9f6f6ca;
+  transition: all 0.5s;
+} 
+
+/* meal details  */
+.meal-par {
+  font-size: 18px;
+}
+.recipes {
+  display: inline-block;
+  padding: 5px 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #cff4fc;
+  color: #055160;
+}
